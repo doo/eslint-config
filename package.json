@@ -1,0 +1,29 @@
+{
+  "name": "@doo/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared eslint-config for all typescript projects",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "lint": "eslint -c ./dist/index.js \"*/**/*.ts\" --max-warnings=0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^8.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "@doo/ts-config": "github:doo/ts-config",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2"
+  }
+}
