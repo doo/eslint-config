@@ -5,14 +5,9 @@ module.exports = {
   extends: [
     'airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
-    'plugin:jest/recommended',
     'prettier',
     'plugin:prettier/recommended',
   ],
-  plugins: ['jest'],
-  env: {
-    jest: true,
-  },
   ignorePatterns: ['**/*.d.ts'],
   rules: {
     ...sharedRules,
@@ -22,10 +17,5 @@ module.exports = {
         devDependencies: ['**/__mocks__/**', '**/*.{test,spec}.{js,ts,tsx}'],
       },
     ],
-  },
-  settings: {
-    jest: {
-      version: 26,
-    },
-  },
+  }
 };
