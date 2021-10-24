@@ -26,5 +26,8 @@ module.exports = {
         devDependencies: ['**/__mocks__/**', '**/*.{test,spec}.{js,ts,tsx}'],
       },
     ],
-  }
+  },
+  parserOptions: {
+    project: './tsconfig.json',
+  },
 };
