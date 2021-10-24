@@ -1,1 +1,0 @@
-{"version":3,"file":"react.js","sourceRoot":"","sources":["../react.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,oEAA8C;AAC9C,wDAAuC;AAEvC,MAAM,CAAC,OAAO,GAAG;IACf,OAAO,EAAE;QACP,uCAAuC;QACvC,mBAAmB;QACnB,UAAU;QACV,6BAA6B;KAC9B;IACD,cAAc,EAAE,CAAC,WAAW,CAAC;IAC7B,KAAK,wBACA,qBAAW,GACX,eAAU,CACd;CACF,CAAC"}
