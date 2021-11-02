@@ -3,19 +3,6 @@
   "version": "1.0.0",
   "description": "Shared eslint-config for all typescript projects",
   "license": "MIT",
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "eslint-config-airbnb-typescript": "^14.0.1",
-    "eslint-config-prettier": "^8.3.0"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "@typescript-eslint/parser": "^5.1.0",
-    "eslint": "^8.1.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.4.1"
-  },
   "files": [
     "index.js",
     "react.js"
