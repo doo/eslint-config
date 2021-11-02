@@ -5,6 +5,7 @@ module.exports = {
     'prettier',
     'plugin:prettier/recommended',
   ],
+  plugins: ["react", "react-hooks", "import"],
   ignorePatterns: ['**/*.d.ts'],
   rules: {
     '@typescript-eslint/indent': 0, // Prettier handles this
@@ -36,6 +37,7 @@ module.exports = {
     ],
     'react/require-default-props': 0, // not needed with typescript
     'react/prop-types': 0, // not needed with typescript
-    'react/react-in-jsx-scope': 0 // with react-jsx in tsconfig this is not needed anymore
+    'react/react-in-jsx-scope': 0, // with react-jsx in tsconfig this is not needed anymore
+    'import/no-extraneous-dependencies': [0, {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
   }
 };
